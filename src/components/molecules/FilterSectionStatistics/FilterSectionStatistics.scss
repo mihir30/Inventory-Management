@@ -1,0 +1,86 @@
+.filter-section {
+    display: flex;
+    padding: 15px 32px;
+    font-size:14px;
+    overflow:hidden;
+}
+
+.date-picker-box-statistics{
+    width: 250px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 0px 2px 0;
+}
+
+.calendar-icon{
+    margin: 0px 0px 0px 15px;
+}
+
+.month-picker-box {
+    width: 130px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.equipment-picker-box {
+    width: 216px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 10px;
+    text-align: left;
+    padding-right: 28px;
+}
+
+.btn {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+    font-size: 14px;
+}
+
+.form-select-month {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+}
+
+.form-select-equipment-statistics {
+    border: 1px solid #ccd7e6;
+    margin: 5px 300px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 216px;
+}
+
+.arrow-right {
+    margin: 20px 5px 0 0;
+    color: #475466;
+}
+
+.arrow-left {
+    margin: 20px 5px 0 0;
+    color: #475466;
+}
+
+@media screen and (max-width:768px){
+    .form-select-equipment-statistics {
+        margin: 5px 0px;
+        width: 120px;
+    }
+   
+}
+
+
+
+

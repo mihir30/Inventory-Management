@@ -1,0 +1,38 @@
+.popup-box {
+    position: fixed;
+    
+    top: 0;
+    left: 0;
+  }
+   
+  .box {
+    position: relative;
+    width: 30%;
+    height: auto;
+    max-height: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-top: 50px;
+    padding-bottom: 800px;
+    border: 1px solid #999;
+    overflow: auto;
+    margin-left:1100px;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right:305px;
+    top: 0px;
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+  

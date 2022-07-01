@@ -1,0 +1,8 @@
+exports[`Header Component should have the right header component snapshot 1`] = `
+<header
+  aria-label="header"
+  className="header"
+>
+<div className='header-box'>
+</div>
+</header>

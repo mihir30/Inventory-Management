@@ -1,0 +1,98 @@
+.filter-section {
+    display: flex;
+    padding: 15px 40px;
+}
+
+.date-picker-box-units {
+    width: 244px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 3px 2px 0;
+}
+
+.calendar-icon {
+    margin: 0px 0px 0px 15px;
+}
+
+.month-picker-box {
+    width: 130px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.condition-picker-box {
+    width: 130px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.equipment-picker-box {
+    width: 216px;
+    height: 38px;
+    padding: 3px 2px;
+    color: #475466;
+    position: relative;
+    margin: 5px 10px;
+}
+
+.btn {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+}
+
+.form-select-month {
+    border: 1px solid #ccd7e6;
+    margin: 5px 10px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+}
+
+.form-select-condition {
+    border: 1px solid #ccd7e6;
+    margin: 5px 130px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 130px;
+}
+
+.form-select-equipment-units {
+    border: 1px solid #ccd7e6;
+    margin: 5px 130px;
+    border-radius: 2px;
+    color: #475466;
+    height: 35px;
+    width: 216px;
+}
+
+.arrow-right {
+    margin: 20px 5px 0 0;
+    color: #475466;
+    &:hover {
+        background-color: #f4f5f9;
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+.arrow-left {
+    margin: 20px 5px 0 0;
+    color: #475466;
+
+    &:hover {
+        background-color: #f4f5f9;
+        border: 0;
+        cursor: pointer;
+    }
+}

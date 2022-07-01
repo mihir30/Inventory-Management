@@ -1,0 +1,523 @@
+{
+  "equipments": [
+    {
+      "id": 1,
+      "name": "Computer",
+      "archive": false,
+      "icon": "Computer",
+      "productIconURL": "https://cdn3.iconfinder.com/data/icons/computer-system-and-data/512/1-256.png",
+      "shortName": "PC",
+      "properties": [
+        {
+          "label": "Vendor",
+          "default1": "Samsung",
+          "name": true,
+          "required": false
+        },
+        {
+          "label": "Address",
+          "default1": "",
+          "name": false,
+          "required": true
+        }
+      ],
+      "parts": [
+        {
+          "partName": "Monitor",
+          "name": true,
+          "required": false
+        },
+        {
+          "partName": "Mouse",
+          "name": false,
+          "required": true
+        },
+        {
+          "partName": "CPU",
+          "name": true,
+          "required": false
+        },
+        {
+          "partName": "GPU",
+          "name": true,
+          "required": true
+        }
+      ],
+      "comments": "i-7 processor"
+    },
+    {
+      "id": 2,
+      "name": "Hard Disk",
+      "icon": "Hard Disk",
+      "archive": false,
+      "productIconURL": "https://cdn3.iconfinder.com/data/icons/computer-system-and-data/512/26-256.png",
+      "shortName": "HDD",
+      "properties": [
+        {
+          "label": "Size, Gb",
+          "default1": "160",
+          "name": true,
+          "required": true
+        },
+        {
+          "label": "Vendor",
+          "default1": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "comments": ""
+    },
+    {
+      "id": 3,
+      "name": "Memory",
+      "icon": "Memory",
+      "archive": false,
+      "productIconURL": "https://cdn1.iconfinder.com/data/icons/software-hardware/200/software-22-256.png",
+      "shortName": "RAM",
+      "properties": [
+        {
+          "label": "Size, Gb",
+          "default1": "8",
+          "name": true,
+          "required": true
+        },
+        {
+          "label": "Vendor",
+          "default1": "",
+          "name": true,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "comments": ""
+    },
+    {
+      "id": 4,
+      "name": "Monitor",
+      "icon": "Monitor",
+      "archive": false,
+      "productIconURL": "https://cdn1.iconfinder.com/data/icons/aami-web-internet/64/aami16-15-256.png",
+      "shortName": "MON",
+      "properties": [
+        {
+          "label": "Size, inch",
+          "default1": "23",
+          "name": false,
+          "required": false
+        },
+        {
+          "label": "Model",
+          "default1": "",
+          "name": true,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "comments": ""
+    },
+    {
+      "id": 5,
+      "name": "Processor",
+      "icon": "Processor",
+      "archive": false,
+      "productIconURL": "https://cdn2.iconfinder.com/data/icons/abstract-electronics-1/100/10-256.png",
+      "shortName": "CPU",
+      "properties": [
+        {
+          "label": "Model",
+          "default1": "",
+          "name": true,
+          "required": true
+        },
+        {
+          "label": "Vendor",
+          "default1": "Intel",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [
+        {
+          "partName": "Chip",
+          "name": false,
+          "required": true
+        },
+        {
+          "partName": "Wire",
+          "name": false,
+          "required": true
+        }
+      ],
+      "comments": ""
+    },
+    {
+      "name": "Laptop",
+      "shortName": "LAP",
+      "icon": "",
+      "productIconURL": "https://cdn3.iconfinder.com/data/icons/computer-system-and-data/512/1-256.png",
+      "comments": "",
+      "properties": [
+        {}
+      ],
+      "parts": [
+        {
+          "partName": "Hard Disk"
+        }
+      ],
+      "archive": false,
+      "id": 6
+    },
+    {
+      "name": "Battery",
+      "shortName": "BTY",
+      "icon": "Processor",
+      "productIconURL": "https://cdn2.iconfinder.com/data/icons/abstract-electronics-1/100/10-256.png",
+      "comments": "",
+      "properties": [
+        {
+          "label": "Power",
+          "default1": "2",
+          "required": true
+        }
+      ],
+      "parts": [
+        {
+          "partName": "Memory",
+          "name": true,
+          "required": true
+        }
+      ],
+      "archive": false,
+      "id": 7
+    },
+    {
+      "name": "Printer",
+      "shortName": "PRI",
+      "icon": "Hard Disk",
+      "productIconURL": "https://cdn3.iconfinder.com/data/icons/computer-system-and-data/512/26-256.png",
+      "comments": "",
+      "properties": [
+        {
+          "label": "",
+          "default1": "",
+          "name": false,
+          "required": false
+        }
+      ],
+      "parts": [],
+      "archive": false,
+      "id": 8
+    },
+    {
+      "name": "Router",
+      "shortName": "",
+      "icon": "Hard Disk",
+      "productIconURL": "https://cdn3.iconfinder.com/data/icons/computer-system-and-data/512/26-256.png",
+      "comments": "",
+      "properties": [
+        {}
+      ],
+      "parts": [],
+      "archive": false,
+      "id": 9
+    }
+  ],
+  "persons": [
+    {
+      "id": 1,
+      "personName": "Araceli Church",
+      "email": "araceli_church@gmail.com",
+      "skype": "church7",
+      "information": [
+        {
+          "type": "Monitor",
+          "serial": "MON-00048",
+          "name": "LG",
+          "fromDate": "2020-01-02"
+        },
+        {
+          "type": "Memory",
+          "serial": "RAM-00033",
+          "name": "8",
+          "fromDate": "2020-01-08"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "personName": "Barbara Spears",
+      "email": "barbaraspears@gmail.com",
+      "skype": "barbaraspears",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00017",
+          "name": "Dell X2",
+          "fromDate": "2020-08-08"
+        },
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00043",
+          "name": "160",
+          "fromDate": "2020-05-06"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "personName": "Bailey Cook",
+      "email": "bailey101@gmail.com",
+      "skype": "baileycook",
+      "information": [
+        {
+          "type": "Monitor",
+          "serial": "MON-00049",
+          "name": "LG",
+          "fromDate": "2020-01-02"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "personName": "Bailey Dorsey",
+      "email": "bailey_dorsey@gmail.com",
+      "skype": "bailey",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00044",
+          "name": "160",
+          "fromDate": "2020-05-06"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "personName": "Bailey Kerr",
+      "email": "kerr24@gmail.com",
+      "skype": "kerr",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00018",
+          "name": "Dell X2",
+          "fromDate": "2020-09-08"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "personName": "Barbara Solomon",
+      "email": "barbara124@gmail.com",
+      "skype": "solomon",
+      "information": [
+        {
+          "type": "Memory",
+          "serial": "RAM-00034",
+          "name": "8",
+          "fromDate": "2020-02-08"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "personName": "Braylon Bean",
+      "email": "bean18@gmail.com",
+      "skype": "bean",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00045",
+          "name": "160",
+          "fromDate": "2020-05-09"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "personName": "Braylon Beltran",
+      "email": "braylonbeltran@gmail.com",
+      "skype": "belt5",
+      "information": [
+        {
+          "type": "Computer",
+          "serial": "PC-00019",
+          "name": "Dell X2",
+          "fromDate": "2020-07-08"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "personName": "Braylon Strong",
+      "email": "strong7@gmail.com",
+      "skype": "strong7",
+      "information": []
+    },
+    {
+      "id": 10,
+      "personName": "Carina Lowe",
+      "email": "carinalowe@gmail.com",
+      "skype": "lowe3",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00045",
+          "name": "160",
+          "fromDate": "2020-05-04"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "personName": "Hailee King",
+      "email": "hailee45@gmail.com",
+      "skype": "hailee45",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00046",
+          "name": "160",
+          "fromDate": "2020-05-08"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "personName": "Clavin Spear",
+      "email": "calvin7@gmail.com",
+      "skype": "calvin7",
+      "information": [
+        {
+          "type": "Hard Disk",
+          "serial": "HDD-00048",
+          "name": "160",
+          "fromDate": "2020-05-10"
+        }
+      ]
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "status": "Taken",
+      "serial": "MON-00048",
+      "type": "Monitor",
+      "name": "LG",
+      "person": "Araceli Church",
+      "fromDate": "2020-01-02"
+    },
+    {
+      "id": 2,
+      "status": "Available",
+      "serial": "PC-00017",
+      "type": "Computer",
+      "name": "Dell X2",
+      "person": "Barbara Spears",
+      "fromDate": "2020-08-08"
+    },
+    {
+      "id": 3,
+      "status": "Taken",
+      "serial": "MON-00049",
+      "type": "Monitor",
+      "name": "LG",
+      "person": "Bailey Cook",
+      "fromDate": "2020-01-02"
+    },
+    {
+      "id": 4,
+      "status": "Broken",
+      "serial": "HDD-00044",
+      "type": "Hard Disk",
+      "name": "160",
+      "person": "",
+      "fromDate": "2020-05-06"
+    },
+    {
+      "id": 5,
+      "status": "Available",
+      "serial": "PC-00018",
+      "type": "Computer",
+      "name": "Dell X2",
+      "person": "Bailey Kerr",
+      "fromDate": "2020-09-08"
+    },
+    {
+      "id": 6,
+      "status": "Available",
+      "serial": "RAM-00034",
+      "type": "Memory",
+      "name": "8",
+      "person": "Barbara Solomon",
+      "fromDate": "2020-02-08"
+    },
+    {
+      "id": 7,
+      "status": "Taken",
+      "serial": "HDD-00045",
+      "type": "Hard Disk",
+      "name": "160",
+      "person": "Braylon Bean",
+      "fromDate": "2020-05-09"
+    },
+    {
+      "id": 8,
+      "status": "Broken",
+      "serial": "HDD-00045",
+      "type": "Hard Disk",
+      "name": "160",
+      "person": "",
+      "fromDate": "2020-05-09"
+    },
+    {
+      "id": 9,
+      "status": "Taken",
+      "serial": "HDD-00045",
+      "type": "Hard Disk",
+      "name": "160",
+      "person": "Braylon Strong",
+      "fromDate": "2020-05-04"
+    },
+    {
+      "id": 10,
+      "status": "Available",
+      "serial": "HDD-00045",
+      "type": "Hard Disk",
+      "name": "160",
+      "person": "Carina Lowe",
+      "fromDate": "2020-05-04"
+    },
+    {
+      "id": 15,
+      "status": "Taken",
+      "serial": "MON-00048",
+      "type": "Monitor",
+      "name": "LG",
+      "person": "Batman",
+      "fromDate": "2020-01-02"
+    },
+    {
+      "status": "Available",
+      "quantity": 0,
+      "serial": "",
+      "type": "Monitor",
+      "name": "",
+      "person": "",
+      "fromDate": "2022-6-1",
+      "id": 16
+    },
+    {
+      "status": "Available",
+      "quantity": 0,
+      "serial": "",
+      "type": "Monitor",
+      "name": "",
+      "person": "",
+      "fromDate": "2022-6-1",
+      "id": 17
+    }
+  ]
+}

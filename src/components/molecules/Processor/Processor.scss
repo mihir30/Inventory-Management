@@ -1,0 +1,48 @@
+.processor-container {
+    display: block;
+    margin-top: 0.5rem;
+}
+.processor-header {
+    display: flex;
+    background-color: gray;
+    color: lightgray;
+    align-items: center;
+    padding: 0.4rem;
+    justify-content: space-between;
+}
+.processor-header:hover {
+    color: #4f4f51;
+}
+.delete-icon {
+    float: right;
+    cursor: pointer;
+}
+.inner1 {
+    cursor: pointer;
+}
+.processor-content-input {
+    margin-left: 1rem;
+    border: none;
+    height: 2rem;
+    cursor: pointer;
+}
+.processor-content-div {
+    display: flex;
+    margin: 1rem;
+    align-items: center;
+    cursor: pointer;
+}
+.processor-content-label {
+    font-size: small;
+    font-weight: 500;
+}
+.sub-group .sub-input {
+    border: none;
+}
+.sub-group .group2{
+    display: flex;
+    align-items: center;
+}
+.sub-group .star-mark{
+    display: none;
+}

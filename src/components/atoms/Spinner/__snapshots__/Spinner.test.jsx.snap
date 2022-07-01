@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spinner component should have the right Spinner component snapshot 1`] = `
+<div
+  className="spinner-overlay"
+>
+  <div
+    className="spinner-container"
+  />
+</div>
+`;

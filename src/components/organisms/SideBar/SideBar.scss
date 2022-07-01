@@ -1,0 +1,40 @@
+.nav-list-item,
+.nav-list-item-settings,
+.nav-list-item-active {
+    list-style-type: none;
+    margin: 0rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+.nav-icon {
+    margin: 0.5rem;
+    color: #94a1b3;
+}
+.side-icon {
+    color: #94a1b3;
+    float: right;
+}
+.nav-label {
+    font-size: small;
+    font-weight: 500;
+    color: white;
+}
+.nav-label:hover {
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-list-item:hover {
+    background-color: #373a42;
+}
+.dropdown {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-label-settings {
+    margin-left: 2.3rem;
+}

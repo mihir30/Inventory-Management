@@ -1,0 +1,122 @@
+.left {
+    float: left;
+    padding: 0px;
+    background-color: #EBEDF0;
+    border: 1px solid #DADEE0;
+    border-top: none;
+    width: 20%;
+}
+
+.list-heading-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #DADEE0;
+    width: 100%;
+    padding: 1em;
+    color: #475466;
+    font-weight: 700;
+}
+
+.list-heading {
+    display: inline-block;
+    width: 30%;
+    height: 24px;
+}
+
+.person-heading-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.refresh-button , .search-button {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    align-items: center;
+    text-align: center;
+    &:hover {
+        background-color: lightgrey;
+        border-radius: 100%;
+        transform: scale(1);
+        transition: 1ms;
+    }
+
+}
+.refresh-button{
+    margin-left: 5px;
+}
+
+.search-person-box {
+    display: contents;
+}
+
+.search-person-input {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    font-size: 14px;
+    transition: 0.4s;
+    line-height: 24px;
+    width: 0;
+}
+
+.search-person-box:hover>.search-person-input {
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 0 7px;
+    background: white;
+    outline: 1px solid white;
+    color: black;
+}
+
+.names-list-box {
+    border-bottom: 1px solid #DADEE0;
+    width: 100%;
+    padding: 1em;
+    font-size: 14px;
+}
+
+.names-list-box:hover {
+    background-color: rgb(67, 66, 66);
+    color: #fff;
+}
+
+.name {
+    font-weight: bold;
+}
+
+@media (max-width: 992px) {
+    .left{
+        width:25%;
+    }
+    .list-heading-box,.names-list-box,.search-person-input,.name-box,.name,.emailId{
+        // width:fit-content;
+        width: -moz-fit-content;
+        
+    }
+    .name-box{
+        display: inline;
+    }
+    .emailId{
+        display: none;
+    }
+    
+.search-person-input {
+  transition: none;
+ width: 50px;
+ margin-left: 0;
+}
+.search-person-box:hover>.search-person-input {
+   margin-left: 0;
+}
+.search-button,.refresh-button{
+    display: none;
+}
+    
+}
